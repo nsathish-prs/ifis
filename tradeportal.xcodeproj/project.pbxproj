@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC43B26319E4F7EB0014DDA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC43B26219E4F7EB0014DDA5 /* UIKit.framework */; };
+		EC43B26519E4F7EB0014DDA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC43B26419E4F7EB0014DDA5 /* Foundation.framework */; };
+		EC43B26719E4F7EB0014DDA5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC43B26619E4F7EB0014DDA5 /* CoreGraphics.framework */; };
+		EC43B26D19E4F7EB0014DDA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC43B26B19E4F7EB0014DDA5 /* InfoPlist.strings */; };
+		EC43B26F19E4F7EB0014DDA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC43B26E19E4F7EB0014DDA5 /* main.m */; };
+		EC43B27319E4F7EB0014DDA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC43B27219E4F7EB0014DDA5 /* AppDelegate.m */; };
+		EC43B27619E4F7EB0014DDA5 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC43B27419E4F7EB0014DDA5 /* MainStoryboard_iPhone.storyboard */; };
+		EC43B27919E4F7EB0014DDA5 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC43B27719E4F7EB0014DDA5 /* MainStoryboard_iPad.storyboard */; };
+		EC43B27C19E4F7EB0014DDA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC43B27B19E4F7EB0014DDA5 /* ViewController.m */; };
+		EC43B28419E4F7EB0014DDA5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC43B28319E4F7EB0014DDA5 /* SenTestingKit.framework */; };
+		EC43B28519E4F7EC0014DDA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC43B26219E4F7EB0014DDA5 /* UIKit.framework */; };
+		EC43B28619E4F7EC0014DDA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC43B26419E4F7EB0014DDA5 /* Foundation.framework */; };
+		EC43B28E19E4F7EC0014DDA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC43B28C19E4F7EC0014DDA5 /* InfoPlist.strings */; };
+		EC43B29119E4F7EC0014DDA5 /* tradeportalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC43B29019E4F7EC0014DDA5 /* tradeportalTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC43B28719E4F7EC0014DDA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC43B25519E4F7EA0014DDA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC43B25D19E4F7EB0014DDA5;
+			remoteInfo = tradeportal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC43B25E19E4F7EB0014DDA5 /* tradeportal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tradeportal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC43B26219E4F7EB0014DDA5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC43B26419E4F7EB0014DDA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC43B26619E4F7EB0014DDA5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC43B26A19E4F7EB0014DDA5 /* tradeportal-Info.plist */ = {isa = PBXFileReference; path = "tradeportal-Info.plist"; sourceTree = "<group>"; };
+		EC43B26C19E4F7EB0014DDA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC43B26E19E4F7EB0014DDA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC43B27019E4F7EB0014DDA5 /* tradeportal-Prefix.pch */ = {isa = PBXFileReference; path = "tradeportal-Prefix.pch"; sourceTree = "<group>"; };
+		EC43B27119E4F7EB0014DDA5 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC43B27219E4F7EB0014DDA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC43B27519E4F7EB0014DDA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		EC43B27819E4F7EB0014DDA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		EC43B27A19E4F7EB0014DDA5 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		EC43B27B19E4F7EB0014DDA5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC43B28219E4F7EB0014DDA5 /* tradeportalTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tradeportalTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC43B28319E4F7EB0014DDA5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		EC43B28B19E4F7EC0014DDA5 /* tradeportalTests-Info.plist */ = {isa = PBXFileReference; path = "tradeportalTests-Info.plist"; sourceTree = "<group>"; };
+		EC43B28D19E4F7EC0014DDA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC43B28F19E4F7EC0014DDA5 /* tradeportalTests.h */ = {isa = PBXFileReference; path = tradeportalTests.h; sourceTree = "<group>"; };
+		EC43B29019E4F7EC0014DDA5 /* tradeportalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tradeportalTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC43B25B19E4F7EB0014DDA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC43B26319E4F7EB0014DDA5 /* UIKit.framework in Frameworks */,
+				EC43B26519E4F7EB0014DDA5 /* Foundation.framework in Frameworks */,
+				EC43B26719E4F7EB0014DDA5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC43B27E19E4F7EB0014DDA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC43B28419E4F7EB0014DDA5 /* SenTestingKit.framework in Frameworks */,
+				EC43B28519E4F7EC0014DDA5 /* UIKit.framework in Frameworks */,
+				EC43B28619E4F7EC0014DDA5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC43B25319E4F7EA0014DDA5 = {
+			isa = PBXGroup;
+			children = (
+				EC43B26819E4F7EB0014DDA5 /* tradeportal */,
+				EC43B28919E4F7EC0014DDA5 /* tradeportalTests */,
+				EC43B26119E4F7EB0014DDA5 /* Frameworks */,
+				EC43B25F19E4F7EB0014DDA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC43B25F19E4F7EB0014DDA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC43B25E19E4F7EB0014DDA5 /* tradeportal.app */,
+				EC43B28219E4F7EB0014DDA5 /* tradeportalTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC43B26119E4F7EB0014DDA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC43B26219E4F7EB0014DDA5 /* UIKit.framework */,
+				EC43B26419E4F7EB0014DDA5 /* Foundation.framework */,
+				EC43B26619E4F7EB0014DDA5 /* CoreGraphics.framework */,
+				EC43B28319E4F7EB0014DDA5 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC43B26819E4F7EB0014DDA5 /* tradeportal */ = {
+			isa = PBXGroup;
+			children = (
+				EC43B27119E4F7EB0014DDA5 /* AppDelegate.h */,
+				EC43B27219E4F7EB0014DDA5 /* AppDelegate.m */,
+				EC43B27419E4F7EB0014DDA5 /* MainStoryboard_iPhone.storyboard */,
+				EC43B27719E4F7EB0014DDA5 /* MainStoryboard_iPad.storyboard */,
+				EC43B27A19E4F7EB0014DDA5 /* ViewController.h */,
+				EC43B27B19E4F7EB0014DDA5 /* ViewController.m */,
+				EC43B26919E4F7EB0014DDA5 /* Supporting Files */,
+			);
+			path = tradeportal;
+			sourceTree = "<group>";
+		};
+		EC43B26919E4F7EB0014DDA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC43B26A19E4F7EB0014DDA5 /* tradeportal-Info.plist */,
+				EC43B26B19E4F7EB0014DDA5 /* InfoPlist.strings */,
+				EC43B26E19E4F7EB0014DDA5 /* main.m */,
+				EC43B27019E4F7EB0014DDA5 /* tradeportal-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC43B28919E4F7EC0014DDA5 /* tradeportalTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC43B28F19E4F7EC0014DDA5 /* tradeportalTests.h */,
+				EC43B29019E4F7EC0014DDA5 /* tradeportalTests.m */,
+				EC43B28A19E4F7EC0014DDA5 /* Supporting Files */,
+			);
+			path = tradeportalTests;
+			sourceTree = "<group>";
+		};
+		EC43B28A19E4F7EC0014DDA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC43B28B19E4F7EC0014DDA5 /* tradeportalTests-Info.plist */,
+				EC43B28C19E4F7EC0014DDA5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC43B25D19E4F7EB0014DDA5 /* tradeportal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC43B29419E4F7EC0014DDA5 /* Build configuration list for PBXNativeTarget "tradeportal" */;
+			buildPhases = (
+				EC43B25A19E4F7EB0014DDA5 /* Sources */,
+				EC43B25B19E4F7EB0014DDA5 /* Frameworks */,
+				EC43B25C19E4F7EB0014DDA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tradeportal;
+			productName = tradeportal;
+			productReference = EC43B25E19E4F7EB0014DDA5 /* tradeportal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC43B28119E4F7EB0014DDA5 /* tradeportalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC43B29719E4F7EC0014DDA5 /* Build configuration list for PBXNativeTarget "tradeportalTests" */;
+			buildPhases = (
+				EC43B27D19E4F7EB0014DDA5 /* Sources */,
+				EC43B27E19E4F7EB0014DDA5 /* Frameworks */,
+				EC43B27F19E4F7EB0014DDA5 /* Resources */,
+				EC43B28019E4F7EB0014DDA5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC43B28819E4F7EC0014DDA5 /* PBXTargetDependency */,
+			);
+			name = tradeportalTests;
+			productName = tradeportalTests;
+			productReference = EC43B28219E4F7EB0014DDA5 /* tradeportalTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC43B25519E4F7EA0014DDA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = EC43B25819E4F7EA0014DDA5 /* Build configuration list for PBXProject "tradeportal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EC43B25319E4F7EA0014DDA5;
+			productRefGroup = EC43B25F19E4F7EB0014DDA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC43B25D19E4F7EB0014DDA5 /* tradeportal */,
+				EC43B28119E4F7EB0014DDA5 /* tradeportalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC43B25C19E4F7EB0014DDA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC43B26D19E4F7EB0014DDA5 /* InfoPlist.strings in Resources */,
+				EC43B27619E4F7EB0014DDA5 /* MainStoryboard_iPhone.storyboard in Resources */,
+				EC43B27919E4F7EB0014DDA5 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC43B27F19E4F7EB0014DDA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC43B28E19E4F7EC0014DDA5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EC43B28019E4F7EB0014DDA5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC43B25A19E4F7EB0014DDA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC43B26F19E4F7EB0014DDA5 /* main.m in Sources */,
+				EC43B27319E4F7EB0014DDA5 /* AppDelegate.m in Sources */,
+				EC43B27C19E4F7EB0014DDA5 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC43B27D19E4F7EB0014DDA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC43B29119E4F7EC0014DDA5 /* tradeportalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC43B28819E4F7EC0014DDA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC43B25D19E4F7EB0014DDA5 /* tradeportal */;
+			targetProxy = EC43B28719E4F7EC0014DDA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC43B26B19E4F7EB0014DDA5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC43B26C19E4F7EB0014DDA5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC43B27419E4F7EB0014DDA5 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC43B27519E4F7EB0014DDA5 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		EC43B27719E4F7EB0014DDA5 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC43B27819E4F7EB0014DDA5 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		EC43B28C19E4F7EC0014DDA5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC43B28D19E4F7EC0014DDA5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC43B29219E4F7EC0014DDA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC43B29319E4F7EC0014DDA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC43B29519E4F7EC0014DDA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tradeportal/tradeportal-Prefix.pch";
+				INFOPLIST_FILE = "tradeportal/tradeportal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC43B29619E4F7EC0014DDA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tradeportal/tradeportal-Prefix.pch";
+				INFOPLIST_FILE = "tradeportal/tradeportal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EC43B29819E4F7EC0014DDA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tradeportal.app/tradeportal";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tradeportal/tradeportal-Prefix.pch";
+				INFOPLIST_FILE = "tradeportalTests/tradeportalTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		EC43B29919E4F7EC0014DDA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tradeportal.app/tradeportal";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tradeportal/tradeportal-Prefix.pch";
+				INFOPLIST_FILE = "tradeportalTests/tradeportalTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC43B25819E4F7EA0014DDA5 /* Build configuration list for PBXProject "tradeportal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC43B29219E4F7EC0014DDA5 /* Debug */,
+				EC43B29319E4F7EC0014DDA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC43B29419E4F7EC0014DDA5 /* Build configuration list for PBXNativeTarget "tradeportal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC43B29519E4F7EC0014DDA5 /* Debug */,
+				EC43B29619E4F7EC0014DDA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC43B29719E4F7EC0014DDA5 /* Build configuration list for PBXNativeTarget "tradeportalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC43B29819E4F7EC0014DDA5 /* Debug */,
+				EC43B29919E4F7EC0014DDA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC43B25519E4F7EA0014DDA5 /* Project object */;
+}
