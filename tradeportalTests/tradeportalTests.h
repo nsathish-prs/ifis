@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 //
 
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 
-@interface tradeportalTests : SenTestCase
+@interface tradeportalTests : XCTestCase
 
 @end

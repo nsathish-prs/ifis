@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "LoginViewController.h"
 
 @implementation AppDelegate
 
@@ -15,6 +16,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+//    self.loginViewController = [[ViewController alloc]
+//                                initWithNibName:@"ViewController"
+//                                bundle:[NSBundle mainBundle]];
+//    self.window.rootViewController = self.loginViewController;
     return YES;
 }
 							
